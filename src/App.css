@@ -1,0 +1,38 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+}
+
+.table tbody tr img {
+  border-radius: 50%;
+}
+
+.table--showColors tbody tr:nth-child(odd) {
+  background: #333;
+}
+
+.table--showColors tbody tr:nth-child(even) {
+  background: #555;
+}
+
+header {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 48px;
+  justify-content: center;
+}
+
+input {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
